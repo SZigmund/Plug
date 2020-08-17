@@ -16,7 +16,7 @@ var MyEVENTS = {
 		audio.play();
 	  }
     console.log("eventDjadvance-DONE");
-  };
+  }
 };
 
 var STARTUP = {
@@ -27,7 +27,7 @@ var STARTUP = {
     window.APIisRunning = true;
     console.log("INIT3");
 	MyEVENTS.connectAPI();
-	};
+	}
 };
 
 if (!window.APIisRunning) {
