@@ -28,6 +28,7 @@ var STARTUP = {
         if (window.APIisRunning) return;
         window.APIisRunning = true;
 	    MyEVENTS.connectAPI();
+		gapi.client.setApiKey("AIzaSyCLaNWiQapo3lo5Oj575nVndl8nlz7kpyU");
       } catch (err) {
         console.log("eventDjadvance: " + err.message);
       }
